@@ -1,0 +1,16 @@
+{
+  "name": "v4-ssh-git-helper",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "ssh:ensure-owner": "bash scripts/ssh-manage.sh ensure owner",
+    "ssh:ensure-contributor": "bash scripts/ssh-manage.sh ensure contributor",
+    "ssh:upload-owner": "bash scripts/ssh-manage.sh upload owner",
+    "ssh:upload-contributor": "bash scripts/ssh-manage.sh upload contributor",
+    "git:clone": "bash scripts/git-ops.sh clone",
+    "git:push": "bash scripts/git-ops.sh push",
+    "git:pull": "bash scripts/git-ops.sh pull",
+    "git:sync": "bash scripts/git-ops.sh sync",
+    "git:status": "bash scripts/git-ops.sh status"
+  }
+}
